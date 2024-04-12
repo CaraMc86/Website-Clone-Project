@@ -1,0 +1,76 @@
+header, main {
+    background-color:#F7EDD7;
+    color: #E16764;
+    padding: 20px 0; 
+    font-family: "Cooper Black", serif; 
+    text-align: center;
+  }
+
+  main {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+
+  h1 {   
+    font-size: 3em; 
+    margin-bottom: 0.5em; 
+  }
+
+  h2 {
+    font-size: 2em;
+
+  }
+
+  h3 {
+    font-size: 1em; 
+  }
+  
+  p {
+    font-size: 1em; /* Set the font size for the paragraph */
+    font-weight: lighter; /* Reduce the font weight to make it lighter than the heading */
+    text-align: center;
+    font-family: "Cooper Black", serif;
+  }
+
+
+  /* Add styles for the navigation bar */
+nav ul {
+    list-style: none; 
+    margin: 0; 
+    padding: 0; 
+    display: flex; /* Flexbox for horizontal layout */
+    justify-content: space-evenly;
+    font-family: "Cooper Black", serif;
+    background-color: #E16764;
+    text-align: center;
+  }
+  
+  nav li {
+    padding: 10px 20px; /* Add padding to list items */
+  }
+  
+  nav a {
+    color: #fff; 
+    text-decoration: none; 
+    font-weight: lighter; /* Lighter weight than the heading */
+  }
+  
+  nav a:hover {
+    color: #ddd; /* Change color on hover */
+  }
+
+  .photos {
+    width: 80%; 
+    height: 333px;
+    margin: 0 auto; 
+  }
+
+  .mainPics {
+    width: 97%;
+    margin: 5px auto;
+  }
+
+  .bookNow {
+    color: #E16764;
+  }
