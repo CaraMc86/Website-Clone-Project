@@ -1,13 +1,20 @@
-/* Default styles for hte main elements of the page */
+/* Default styles for the main elements of the page */
 
 header,
 main,
 footer {
-  background-color: #F7EDD7;
+  background-color: #f7edd6;
   color: #D5262E;
   padding: 20px 0;
   font-family: "Cooper Black", serif;
   text-align: center;
+}
+
+/* Styling for the header*/
+
+.headerContainer {
+  margin: 0;
+  padding: none;
 }
 
 /* Styles for the navigation bar */
@@ -27,7 +34,7 @@ nav li {
 }
 
 nav a {
-  color: #F7EDD7;
+  color: #f7edd6;
   text-decoration: none;
   font-weight: lighter;
 }
@@ -58,6 +65,10 @@ h3 {
   font-size: 1em;
 }
 
+.venueContainer {
+  
+}
+
 button {
   background-color:#EBB195;
   font-family: "Cooper Black", serif;
@@ -67,7 +78,7 @@ button {
 
 .button {
   color: #334655;
-  font-weight: ;
+  margin-bottom: 50px;
 }
 
 p {
@@ -80,30 +91,34 @@ p {
   font-weight: lighter;
 }
 
-.tcr {
+.tcrHeader {
+  margin-top: 0;
   color: #334655;
 }
 
+.tcrParagraph {
+  color: #334655;
+}
+
+.buttonBottomPadding {
+  padding-bottom: 21px;
+}
 
 .link:hover {
   color: #D5262E;
 }
 
-.photos {
-  width: 80%;
-  height: 333px;
-  margin: 0 auto;
-}
-
-.mainPics {
+.foodhall {
   width: 97%;
   margin: 5px auto;
 }
 
 .pic2 {
-  margin-top: 16px;
-  height: 100%;
-  margin: 5px
+  width: 100%;
+  height:fit-content;
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .link {
@@ -113,10 +128,11 @@ p {
 .info {
   width: 100%;
   background-color: #EBB195;
-
-  padding-top: 10px;
   padding-bottom: 50px;
+}
 
+.infoAddress {
+  font-size: 10px;
 }
 
 .mapLink {
