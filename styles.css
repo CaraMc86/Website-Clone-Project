@@ -72,21 +72,20 @@ h3 {
 button {
   background-color:#EBB195;
   font-family: "Cooper Black", serif;
-  font-size: larger;
+  font-size: 1.1em;
   border-radius: 5px;
+  padding: 1.6%;
 }
 
 .button {
   color: #334655;
   margin-bottom: 50px;
+  text-decoration: none;
 }
 
 p {
   font-size: 1em;
   /* Set the font size for the paragraph */
-  font-weight: lighter;
-  /* Reduce the font weight to make it lighter than the heading */
-  text-align: center;
   font-family: "Cooper Black", serif;
   font-weight: lighter;
 }
@@ -131,10 +130,14 @@ p {
   padding-bottom: 50px;
 }
 
-.infoAddress {
+#infoAddress {
   font-size: 10px;
 }
 
+.infoTextAlign{
+  text-align: left;
+  padding-left: 5%;
+}
 .mapLink {
   color: #D5262E
 }
@@ -142,6 +145,29 @@ p {
 .mapLink:hover {
   background-color: #D5262E;
   color: #EBB195;
+}
+
+.instaFollowBanner {
+  display: block;
+  width: 100%;
+  background-color: #D5262E;
+  color: #f7edd6;
+  font-size: 1.5789473684em;
+  letter-spacing: .0125em;
+  line-height: 1.0933333333em;
+
+}
+
+.formHeader1 {
+  text-align: left;
+  padding-left: 5%;
+  margin-bottom: 0;
+}
+
+.formHeader2 {
+  text-align: left;
+  padding-left: 4.5%;
+  margin-top: 1.4%;
 }
 
 footer ul {
