@@ -5,16 +5,21 @@ main,
 footer {
   background-color: #f7edd6;
   color: #D5262E;
-  padding: 20px 0;
+  padding: 10px 0;
+  width: auto;
   font-family: "Cooper Black", serif;
   text-align: center;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 /* Styling for the header*/
 
 .headerContainer {
   margin: 0;
-  padding: none;
+  padding: 0;
 }
 
 /* Styles for the navigation bar */
@@ -23,14 +28,15 @@ nav ul {
   margin: 0;
   padding: 0;
   display: flex;
-  /* Flexbox for horizontal layout */
+  /* Flex wrap used so the text on smaller screens doesnt push out of its container. */
+  flex-wrap: wrap; 
   justify-content: space-evenly;
   background-color: #D5262E;
   text-align: center;
 }
 
 nav li {
-  padding: 10px 20px;
+  padding: 8px 12px;
 }
 
 nav a {
@@ -43,21 +49,21 @@ nav a:hover {
   color: #ddd;
 }
 
-
+/* Main content styles */
 main {
   margin-top: 0;
   padding-top: 0;
 }
 
 h1 {
-  font-size: 4em;
+  font-size: 3em;
   font-style: italic;
   margin-top: 0;
   margin-bottom: 0.2em;
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 1.8em;
   color:
 }
 
@@ -65,8 +71,23 @@ h3 {
   font-size: 1em;
 }
 
-.venueContainer {
-  
+p {
+  font-size: 0.9em;
+  padding: 1%;
+}
+
+.tcrHeader {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #334655;
+}
+
+.tcrParagraph {
+  color: #334655;
+}
+
+.sampleMenuLink {
+  color: #D5262E;
 }
 
 button {
@@ -83,24 +104,12 @@ button {
   text-decoration: none;
 }
 
-p {
-  font-size: 1em;
-  /* Set the font size for the paragraph */
-  font-family: "Cooper Black", serif;
-  font-weight: lighter;
-}
-
-.tcrHeader {
-  margin-top: 0;
-  color: #334655;
-}
-
-.tcrParagraph {
-  color: #334655;
-}
-
 .buttonBottomPadding {
   padding-bottom: 21px;
+}
+
+.button:hover {
+  color: #D5262E;
 }
 
 .link:hover {
@@ -187,3 +196,33 @@ footer a {
 footer a:hover {
   color: #D5262E;
 }
+
+@media (max-width: 400px) {
+  header, main, footer {
+    width: 100%; /* Ensure elements take up full width */
+    padding: 10px; /* Add padding to prevent content from sticking to edges */
+    font-size: 0.9em;
+    justify-content: space-between;
+}
+  .pic2 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Adjust styles for small screens here */
+  h1 {
+    font-size: 2.5em;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+  p {
+    font-size: 0.8em;
+  }
+}
+
+
+
+
